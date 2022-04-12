@@ -81,4 +81,11 @@
 		font-size: 1.5rem;
 		line-height: 1.75rem;
 	}
+
+    @media (max-width: 600px) {
+        .full-article h1 {
+            font-size: 46px;
+            line-height: 50px;
+        }
+    }
 </style>
