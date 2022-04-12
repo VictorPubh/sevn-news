@@ -1,8 +1,8 @@
-import { writable } from 'svelte/store'
+import { writable } from 'svelte/store';
 
-export const company = writable("Sevn News")
-export const customTitle = writable("Últimas notícias")
-export const identityColor = writable("#FFBD14")
+export const company = writable('Sevn News');
+export const customTitle = writable('Últimas notícias');
+export const identityColor = writable('#FFBD14');
 
 /* 
 * It was removed when using Preload
