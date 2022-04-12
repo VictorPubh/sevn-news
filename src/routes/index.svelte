@@ -3,6 +3,7 @@
     import Footer from '../components/Footer.svelte'
     import Advertising from '../components/Advertising.svelte'
     import News from '../components/News.svelte'
+    import { company, customTitle } from '../store/global';
 
     export let others;
     export let headlines;
@@ -12,6 +13,10 @@
         headlines
     }
 </script>
+
+<svelte:head>
+	<title>{$company} - {$customTitle}</title>
+</svelte:head>
 
 <script context="module">
     /** @type {import('./[slug]').Load} */

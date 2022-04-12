@@ -3,6 +3,7 @@
     import Badge from "../../components/Badge/index.svelte"
     import Footer from '../../components/Footer.svelte'
     import Advertising from "../../components/Advertising.svelte";
+    import { company } from "../../store/global";
 
     export let article;
 
@@ -24,6 +25,11 @@
         };
     }
 </script>
+
+<svelte:head>
+	<title>{$company} - {article.title}</title>
+</svelte:head>
+
 
 <Header buttonReturn />
 

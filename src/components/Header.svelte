@@ -2,7 +2,6 @@
     import { company } from "../store/global"
     import { identityColor } from "../utils/colors"
 
-    $: title = `${$company} News`
     export let buttonReturn = false;
 </script>
 
@@ -15,7 +14,7 @@
             </svg>                
         </a>
     {/if}
-    {title}
+    {$company}
 </div>
 
 <style>

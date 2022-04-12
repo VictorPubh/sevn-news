@@ -1,6 +1,7 @@
 import { writable } from 'svelte/store'
 
-export const company = writable("Sevn")
+export const company = writable("Sevn News")
+export const customTitle = writable("Últimas notícias")
 export const identityColor = writable("#FFBD14")
 
 /* 
