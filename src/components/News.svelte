@@ -24,6 +24,12 @@
 		margin: auto;
 	}
 
+	@media (max-width: 800px) {
+		.small-article-grid {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+	}
+
 	@media (max-width: 600px) {
 		.small-article-grid {
 			grid-template-columns: 1fr 1fr;
